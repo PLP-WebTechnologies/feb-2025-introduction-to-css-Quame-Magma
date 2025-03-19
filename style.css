@@ -1,0 +1,59 @@
+/* making changes to the body of the website */
+body {
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* making changes to the header and NavBar */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 10px;
+    gap: 50px;
+}
+
+#signup-btn {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 2px 15px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.header ul, a {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    list-style: none;
+    gap: 50px;
+}
+
+/* making changes to the content in the body */
+.home-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin: 50px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+/* Resizing the image to fit */
+.banner-image img {
+    width: 500px;
+    height: 700px;
+}
